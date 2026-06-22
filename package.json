@@ -1,0 +1,42 @@
+{
+  "name": "payload-cms-website-skill",
+  "version": "1.0.0",
+  "description": "Claude Code skill for building high-trust Payload CMS Website Template marketing sites — keeps hero top-level and layout blocks separate (page.hero -> RenderHero, page.layout[] -> RenderBlocks).",
+  "type": "module",
+  "bin": {
+    "payload-cms-website-skill": "bin/install.mjs"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "install-skill": "node bin/install.mjs"
+  },
+  "keywords": [
+    "claude-code",
+    "claude",
+    "skill",
+    "agent-skill",
+    "payload",
+    "payload-cms",
+    "payload-website-template",
+    "nextjs",
+    "cms"
+  ],
+  "author": "nicolaeciobota",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaeciobota/payload-cms-website-skill.git"
+  },
+  "homepage": "https://github.com/nicolaeciobota/payload-cms-website-skill#readme",
+  "bugs": {
+    "url": "https://github.com/nicolaeciobota/payload-cms-website-skill/issues"
+  },
+  "engines": {
+    "node": ">=16.7.0"
+  }
+}
